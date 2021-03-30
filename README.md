@@ -11,6 +11,7 @@
 - Spring Security
 - Hibernate-validator
 - MySQL Driver
+- Паттерны программирования (DTO, DAO, IoC, ORM, Front Controller, Model View Controller)
 
 
 
