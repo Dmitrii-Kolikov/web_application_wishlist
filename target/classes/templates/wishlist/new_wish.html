@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Wishlist</title>
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/new-wish.css}"/>
+</head>
+<body th:style="'background: url(/image/wish2.jpg) no-repeat center center fixed;'">
+<div class="container">
+    <h2>Save my Wish</h2>
+
+    <form action="#" th:action="@{saveWish}" th:object="${yourWish}" method="POST">
+        <input type="text" th:field="*{wish}"
+               placeholder="Write your wish" class="form-control mb-4 col-4 text-center">
+        <div style="color:yellow" th:if="${#fields.hasErrors('wish')}" th:errors="*{wish}">Wish error</div>
+
+        <select th:field="*{happened}" class="form-control mb-4 col-4 text-center" >
+            <option th:value="'Нет'" th:text="Нет"></option>
+            <option th:value="'ДА'" th:text="Да"></option>
+        </select>
+
+        <button type="submit" class="btn btn-info col-2">Save my Wish</button>
+
+    </form>
+    <hr>
+    <a th:href="@{/}">Back to wishlist</a>
+</div>
+
+</body>
+</html>

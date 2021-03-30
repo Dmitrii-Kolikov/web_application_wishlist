@@ -1,0 +1,41 @@
+h3 {
+    color: greenyellow;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+table {
+    border-bottom: 3px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    border-bottom: 3px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 3px solid black;
+    border-collapse: collapse;
+}
+
+
+table th {
+    text-align: center;
+    color: lime;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+table td {
+    text-align: center;
+    color: gold;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
