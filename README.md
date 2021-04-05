@@ -1,5 +1,5 @@
-1. [Краткое описание](#introduction)
-2. [Полное описание проекта](#introduction2)
+1. [Основное содержание](#introduction)
+2. [Подробнее описание проекта](#introduction2)
 
 
 Цель проекта: <a name="introduction"></a>
