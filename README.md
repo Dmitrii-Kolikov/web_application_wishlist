@@ -44,6 +44,8 @@ https://github.com/Dmitrii-Kolikov/web_application_wishlist/blob/main/src/main/r
 3) Добавить в проект Docker;
 4) Размести наш проект на облачный сервер Heroku;
 5) Расширить функциональность программы;
+
+_____________________________
   
 
 
