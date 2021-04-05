@@ -20,13 +20,13 @@ https://github.com/Dmitrii-Kolikov/web_application_wishlist/blob/main/src/main/r
  - Создание Repository: UserRepository, WishlistRepository; 
  - Создание Service: UserService, WishlistService;
  - Настройка сортировки нашего списка;
- - Создание Controller-а: WishlistController(Добваление, удаление, редатирование, сортировка);
+ - Создание Controller-а: WishlistController(Добавление, удаление, редактирование, сортировка);
  - Создание Dto: UserDto;
  4) этап
  - Настройка Spring Security;
  - Создание controller-а: LogginController;
- - Насройка SecurityConfig;
- - Насройка UserAuthService;
+ - Настройка SecurityConfig;
+ - Настройка UserAuthService;
  5) Этап
  - Создание тестов;
  
